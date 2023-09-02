@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: calculate-pod
+  labels:
+    zone: prod
+    version: v1
+spec:
+  containers:
+  - name: calculate-ctr
+    image: ebrahimtavasoli/kuber-tut-calculate:latest
+    ports:
+    - containerPort: 8000
