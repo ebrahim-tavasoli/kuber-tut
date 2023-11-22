@@ -8,6 +8,6 @@ metadata:
 spec:
   containers:
   - name: calculate-ctr
-    image: ebrahimtavasoli/kuber-tut-calculate:latest
+    image: ebrahimtavasoli/kuber-tut-calculator:latest
     ports:
     - containerPort: 8000
